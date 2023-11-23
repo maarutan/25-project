@@ -1,0 +1,187 @@
+.reviews-title{
+    color: #007198;
+text-align: center;
+font-family: Futura PT;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+justify-content: start;
+align-items: center;
+gap: 5px;
+flex-wrap: wrap;
+}
+
+.reviews-title-con{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 220px;
+}
+
+.svg-review{
+    margin-top: 12px;
+}
+
+
+.reviews-card-1{
+max-width: 560px;
+border-radius: 15px;
+box-shadow:(3px 3px 5px rgba(17, 17, 17, 0.25));
+background: #DAF1F9;
+padding: 10px;
+}
+.title-card-1{
+    color: #111;
+font-family: Futura PT;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.content-card-1-review{
+    color: #111;
+font-family: Futura PT;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.reviews-user-name-date{
+    color: #111;
+font-family: Futura PT;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.reviews-date{
+    color: #111;
+text-align: center;
+font-family: Futura PT;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.df-user-reviews{
+    display: flex;
+justify-content: space-between;
+padding: 0 15px 0px 0px
+}
+.rev-card-1{
+background: #DAF1F9;
+box-shadow:(3px 3px 5px rgba(17, 17, 17, 0.25));
+max-width: 260px;
+
+flex-shrink: 0;
+padding: 5px;
+border-radius: 15px;
+}
+.title-card-rev-1{
+    color: #111;
+font-family: Futura PT;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.content-rev-card-1{
+    color: #111;
+font-family: Futura PT;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.rev-card-1-svg{
+    position: relative;
+    top: 8px;
+}
+.rev-card-1-date{
+    color: #111;
+font-family: Futura PT;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;    
+}
+.reviews-card-two{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rev-see-more{
+    color: #111;
+// text-align: center;
+font-family: Futura PT;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+// width: 260px;
+height: 130px;
+flex-shrink: 0; 
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+.reviews-card-thre{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.rev-col-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.df-rev{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 0 30px;
+ 
+}
+
+.reviews-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.rev-card-more{
+width: 217px;
+height: 160px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #DAF1F9;
+box-shadow:(3px 3px 5px rgba(17, 17, 17, 0.25));
+}
+
+.style-total-rev{
+    color: #111;
+font-family: Futura PT;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.Total-reviews{
+    color: #111;
+text-align: center;
+font-family: Futura PT;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;  
+align-items: center;
+margin: 0;
+margin-top: 40px;
+}

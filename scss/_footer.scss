@@ -1,0 +1,87 @@
+.footer{
+width: 100%;
+padding-top: 25px;
+background: rgba(72, 184, 223, 0.20);
+}
+.foot-number{
+    color: #111;
+font-family: Futura PT;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.foot-df-gmail{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.gmail-text{
+    color: #111;
+    font-family: Futura PT;
+    font-size: 16px;
+    transform: rotate(.686deg);
+    font-style: normal;
+    font-weight:900;
+    line-height: normal;
+}
+.gmail-text-2{
+    color: #111;
+    font-family: Futura PT;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.foot-gmail{
+    color: #111;
+    font-family: Futura PT;
+    font-size: 14px;
+    transform: rotate(.686deg);
+    font-style: normal;
+    font-weight:900;
+    line-height: normal;
+}
+.title-fot-servis{
+    color: #111;
+font-family: Futura PT;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.content-fot-servis{
+    color: #111;
+text-align: start;
+font-family: Futura PT;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.df-footer{
+    display: flex;
+    justify-content: center;
+    gap: 137px;
+    flex-wrap: wrap;
+}
+.foot-more{
+    margin-top: 15px;
+}
+
+.foot-more-2{
+    margin-top: 15px;
+}
+line, .line-con{
+width: 80%;
+margin: 0 auto;
+height: 1px;
+background: rgba(17, 17, 17, 0.50);
+}
+.bottom-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}

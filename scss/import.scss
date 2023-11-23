@@ -1,0 +1,30 @@
+
+// переменные-миксины-шрифты
+
+@import '_variables';
+@import '_mixin';
+@import '_fonts';
+
+
+// libraries
+@import "../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+
+// стилизация
+
+@import '_header';
+@import '_footer';
+@import '_popular-servis';
+@import '_new-card';
+@import '_one-banner';
+@import '_photo-robot';
+@import 'all-services';
+@import '_reviews';
+@import 'want-discount';
+@import '_nav';
+@import '_media';
+@import '_slaid';
+@import '_result-prace';
+@import 'end-new';
+
+
+

@@ -1,0 +1,86 @@
+.popular-servis-upper-text{
+    color: #111;
+text-align: center;
+font-family: Futura PT;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 50px;
+}
+
+
+.popular-servis-uppertext-color{
+    color: #007198;
+font-family: Futura PT;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.pop-text{
+    color: #111;
+    width: 281px;
+
+    flex-shrink: 0;
+text-align: center;
+font-family: Futura PT;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+}
+.pop-price{
+    color: #F47220;
+text-align: center;
+font-family: Futura PT;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.btn-pop{
+width: 92px;
+padding: 10px 13px;
+background: transparent;
+border: 1px solid #F47220;
+border-radius: 10px; 
+ margin-bottom: 30px;
+}
+.pop-srvis-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 373px;
+    flex-shrink: 0;
+    gap: 10px;
+    padding: 0 30px;  
+    // box-shadow: (3px 3px 5px rgba(17, 17, 17, 0.559));
+}
+
+.popular-sevis{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  
+}
+.img-pop{
+    box-shadow: (3px 3px 5px rgba(17, 17, 17, 0.559));
+    border-radius: 15px;
+    max-width: 100%;
+   
+
+}
+.pop-card-2{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,76 @@
+.discount{
+    color: #111;
+// text-align: center;
+font-family: Futura PT;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.styly-dis-text{
+    color: #007198;
+font-family: Futura PT;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.dis-text{
+    color: #007198;
+font-family: Futura PT;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+max-width: 430px;
+}
+.styly-dis-text-2{
+    color: #111;
+font-family: Futura PT;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+max-width: 690px;
+}
+
+
+.btn-discout{
+    color: #111;
+    text-align: center;
+    font-family: Futura PT;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    border: none;
+    transition: .5s;
+}
+
+.text-btn-dis{
+    text-decoration: none;
+    color: #111;
+}
+
+.btn-discout:hover{
+   transform: scale(120%);
+}
+
+.btn-discout-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    position: relative;
+    left: 60px;
+}
+
+.want-discount{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+   
+}

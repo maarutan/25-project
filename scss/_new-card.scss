@@ -1,0 +1,93 @@
+.newcard-upper-text-color{
+    color: #007198;
+font-family: Futura PT;
+font-size: 30px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+}
+.new-card-upper-text{
+    color: #111;
+text-align: center;
+font-family: Futura PT;
+font-size: 30px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+}
+.new-card{
+    padding-top: 30px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+height: 169px;
+width: 250px;
+flex-shrink: 0;
+flex-shrink: 0; 
+background: #DAF1F9;
+box-shadow: (3px 3px 5px rgba(17, 17, 17, 0.25));
+}
+.pos-svg{
+    position: relative;
+    top: -40px;
+    
+}
+.svg-pos{
+    left:90px;
+    position: absolute;
+    top: -40px;
+  
+
+}
+.up-text{
+    color: #111;
+text-align: center;
+font-family: Futura PT;
+font-size: 1.0625rem;
+font-style: bold;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+
+}
+.bottom-text{
+    color: #111;
+font-family: Futura PT;
+font-size: 1rem;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+margin: 0;
+}
+.new-card-container{
+   margin-top: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+}
+.flex-newcard{
+    display: flex;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.flex-newcard-2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flex-wrap-newcard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.new-card{
+    gap: 20px;
+}
+.flex-newcard-2{
+    display: flex;
+    flex-wrap: wrap;
+}

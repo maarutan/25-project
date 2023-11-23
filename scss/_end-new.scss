@@ -1,0 +1,82 @@
+.enew-title{
+    color: #111;
+text-align: center;
+font-family: Futura PT;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.end-new-color-text{
+    color: #007198;
+font-family: Futura PT;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.en-card-text{
+    color: #111;
+font-family: Futura PT;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.enew-card{
+    width: 275px;
+background: #FFF;
+border: solid 2px #007198;;
+border-radius: 15px;
+box-shadow:(3px 3px 5px rgba(17, 17, 17, 0.25));
+padding: 5px;
+padding-left: 20px;
+}
+.enew-card-1{
+    width: 275px;
+background: #DAF1F9;;
+border: solid 2px #007198;;
+border-radius: 15px;
+box-shadow:(3px 3px 5px rgba(17, 17, 17, 0.25));
+padding: 0px 5px ;
+padding-left: 20px;
+}
+.enew-data{
+    color: #111;
+font-family: Futura PT;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.enew-data-1{
+    color: #111;
+font-family: Futura PT;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 35px;
+}
+.contain-card-enew{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 30px;
+    flex-wrap: wrap;
+}
+
+.more-work{
+    color: #111;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+.more-work-con{
+    padding: 60px 0;
+}

@@ -1,0 +1,342 @@
+.hamburger {
+    display: none;
+}
+@media screen and (max-width:752px) {
+    
+    .hamburger{
+    display:block;
+   }
+ nav{
+   display: flex;
+   justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background: rgba(38, 111, 136, 0.8);
+    transition: 1s;
+    transform: translateX(200%);
+    z-index: 10000000;
+
+  
+    
+  }
+  
+
+.body{
+  margin:-25px 0px;
+
+}
+
+
+  .nav__container{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ .nav.is-active {
+    transform: translateX(0);
+  }
+
+.number-header{
+  display: none ;
+}
+// .social-icon{
+// display: none;
+
+// }
+
+.hamburger{
+  position: relative;
+  margin-left: 50px;
+}
+
+
+.nav__link{
+  position: relative;
+  padding-top: 10px;    
+  padding-right: 20px;
+  padding-bottom: 10px; 
+  padding-left: 20px; 
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  
+  
+  
+}
+
+.nav__container{
+  position: relative;
+margin: 0;
+z-index: 1000;
+}
+
+.select-cite{
+  display:none;
+}
+
+.services{
+  display: none;
+}
+
+
+
+.nav__link:hover{
+  transform: none;
+  font-size:15px;
+}
+
+
+// 1 screen
+
+}
+
+@media screen and (max-width:1459px) {
+  .services{
+    margin: 0;
+  }
+}
+
+
+
+
+@media screen and (max-width:550px) {
+
+
+
+
+  }
+
+
+
+@media screen and (max-width:550px) {
+  .banner-text-1{
+    font-size: 2.0rem;
+    width: 18.75rem;
+    margin-left:1.875vw;
+  }
+  .banner-text-2{
+    top: 0vw;
+  font-size: 1.9rem;
+  margin-left: 1.875rem;
+  margin-top: 0;
+  
+}
+.col-banner-1{ 
+  gap: 20px;
+}
+
+
+
+
+.col-banner-2{
+  gap: 20px;
+}
+
+
+
+
+.banner-text-3{
+  top: 0;
+  font-size: 1.9rem;
+  margin-left: 1.875vw;
+  
+}
+
+.oneBanner-card{
+  justify-content: center;
+  gap: 20px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width:1178px) {
+  
+  .adap-col-pop{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+
+}
+
+  @media screen and (max-width:793px) {
+    .adap-col-pop{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
+    }
+    
+    
+  }
+
+
+@media screen  and (max-width:385px)  {
+  
+
+
+  .social-icon{
+    margin: 2.125em;
+  }
+
+
+
+
+}
+
+
+
+
+
+@media screen and ( max-width:1147px) {
+  
+  .all-flex{                                
+    display: none;
+  }
+  .container-all{
+    display: block !important;
+    padding-bottom: 150px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width:1920px)  {
+  
+  
+}
+@media screen  and (max-width:385px)  {
+  
+  
+  .reviews-title-con{
+   
+    padding: 20px;
+}
+
+
+  
+  
+  .img-bunner{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    
+  }
+  
+    .oneBanner-text-container{
+      padding: 0px 20px;
+      
+    }
+    .banner-text{
+      font-size:2rem ;
+      
+    }
+    .oneBanner-card{
+      gap: 30px;
+      padding: 0 30px;
+      
+    }
+    .oneBanner-btn{
+      margin-top: 60px;
+    }
+    .pos-ban{
+      
+      top: 0;
+      left:  0.9375rem;
+      
+      .banner-text-3{
+        bottom: 190px;
+      }
+      
+    }
+  }
+  
+  @media screen  and (max-width:800px)  {
+    
+    .want-discount{
+      padding: 0 100px;
+      
+    }
+    
+    
+  }
+
+
+
+  @media screen  and (max-width:916px)  {
+    
+    
+    .reviews-title-con{
+      
+      padding: 80px;
+    }
+    
+    
+  }
+  @media screen  and (max-width:1188px)  {
+
+    .df-footer{
+      gap: 60px;
+   display: grid;
+   grid-template-columns: repeat(2,2fr);
+   justify-content: center;
+   align-items: center;
+   padding: 0 30px;
+
+  }
+
+.fot-servis{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.foot-more {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.foot-more-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.lofo-foot{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+}
+
+
+
+button{
+  transition: .5s;
+}
+button:hover{
+  transform: translateY(-10px) scale(110%) ;
+}
+button:active{
+  transform: scale(90%);
+}

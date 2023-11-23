@@ -1,0 +1,115 @@
+ .title-foto-robot{
+    color: #111;
+text-align: center;
+font-family: Futura PT;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 20px;
+ }
+
+ .fot-rot-style-title{
+    color: #007198;
+font-family: Futura PT;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+
+
+.left-fotrot{
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+}
+.left-fotrot:hover{
+    transform:
+    translateY(20px) 
+    translateX(-10px)
+    scale(110%);
+}
+
+
+.right-fotrot{
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+}
+.right-fotrot:hover{
+    transform:
+    translateY(-20px) 
+    translateX(10px)
+    scale(110%);
+}
+
+.fot-rot-1{
+    width: 200px;
+    height: 290px;
+}
+
+
+
+.fot-rot-2{
+    width: 200px;
+    height: 290px;
+}
+
+
+
+.one-card-fotrot{
+    display: flex;
+    gap: 2px;
+}
+
+
+
+.two-card-fotrot{
+    display: flex;
+    gap: 2px;
+}
+
+
+
+.thre-card-fotrot{
+    display: flex;
+    gap: 2px;
+}
+
+
+
+.vector-fotrot-1{
+    position: absolute;
+    top: 48%;
+    right: 20px;
+}
+
+
+
+.vector-fotrot-2{
+    position: absolute;
+    top: 48%;
+    left: 20px;
+}
+
+
+.df-foto-robot{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+
+.fot-rot-btn{
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.foto-robot{
+    padding-bottom: 50px;
+}
